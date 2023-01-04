@@ -14,3 +14,4 @@
 - [定时器输入捕获功能](https://teal-produce-f34.notion.site/6deb3e8a2737451d8dd81dce337f3918)
 - [串口通信：轮询方式](https://teal-produce-f34.notion.site/654f26a4b24b4f71a84359e76f7c3975)
 - [串口通信：中断方式](https://teal-produce-f34.notion.site/4cedba87fe9d46d084bfc973ee1fa9ce)
+- [串口通信：DMA方式](https://teal-produce-f34.notion.site/DMA-e90b9c2a1ef5411ca49b90d1d08110ef)
