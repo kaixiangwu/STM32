@@ -15,3 +15,5 @@
 - [串口通信：轮询方式](https://teal-produce-f34.notion.site/654f26a4b24b4f71a84359e76f7c3975)
 - [串口通信：中断方式](https://teal-produce-f34.notion.site/4cedba87fe9d46d084bfc973ee1fa9ce)
 - [串口通信：DMA方式](https://teal-produce-f34.notion.site/DMA-e90b9c2a1ef5411ca49b90d1d08110ef)
+
+- [ADC模数转换](https://teal-produce-f34.notion.site/ADC-5e92eb96d76d490ab85ae23275b6db8a)
