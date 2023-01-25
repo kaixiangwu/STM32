@@ -17,3 +17,5 @@
 - [串口通信：DMA方式](https://teal-produce-f34.notion.site/DMA-e90b9c2a1ef5411ca49b90d1d08110ef)
 
 - [ADC模数转换](https://teal-produce-f34.notion.site/ADC-5e92eb96d76d490ab85ae23275b6db8a)
+
+- [SPI串行外设接口](https://teal-produce-f34.notion.site/SPI-c0068afc44224aa580bf3f69a0804a5d)
