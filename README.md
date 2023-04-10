@@ -19,3 +19,5 @@
 - [ADC模数转换](https://teal-produce-f34.notion.site/ADC-5e92eb96d76d490ab85ae23275b6db8a)
 
 - [SPI串行外设接口](https://teal-produce-f34.notion.site/SPI-c0068afc44224aa580bf3f69a0804a5d)
+
+- [IIC集成电路总线](https://www.notion.so/IIC-1f255e8c8cad47e4b97f719ccf2456dd?pvs=4)
