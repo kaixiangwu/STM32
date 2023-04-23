@@ -21,3 +21,4 @@
 - [串口通信：中断方式](https://mp.weixin.qq.com/s?__biz=MzkwNjQ3NjUzOQ==&mid=2247484586&idx=2&sn=72d8a5406563c8dadb7ea4c6a001085e&chksm=c0e6aa3ef7912328fe093e7e0bffac456d0e35ae4424309067eb361dff38e44597470a71013c#rd)
 - [串口通信：DMA方式](https://mp.weixin.qq.com/s?__biz=MzkwNjQ3NjUzOQ==&mid=2247485214&idx=1&sn=0ff2dc10af77f9a691d5fbb839d524c6&chksm=c0e6a98af791209c1def1f5c1e85cb473b98f791c11313bf37b27fa7af60e0010dfc1a2c97ac#rd)
 - [IIC集成电路总线](https://mp.weixin.qq.com/s?__biz=MzkwNjQ3NjUzOQ==&mid=2247485214&idx=2&sn=24dffa65e92710d044b181397bdd7598&chksm=c0e6a98af791209c87f0554aafc548a809c465088a478091adaa7825d3aaa137d8ee3a84a4c4#rd)
+- [IIC总线操作AT24C02](https://mp.weixin.qq.com/s?__biz=MzkwNjQ3NjUzOQ==&mid=2247485659&idx=1&sn=a01f61bc1044efad5618001a885f3574&chksm=c0e6a64ff7912f591aa23bffe5bbe341c566f7e33f433cefd6ee5f928505a8ab6b2f01c1843f#rd)

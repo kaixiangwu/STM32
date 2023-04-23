@@ -1,0 +1,28 @@
+--cpu Cortex-M3
+"software_iic\startup_stm32f103xb.o"
+"software_iic\software_iic.o"
+"software_iic\main.o"
+"software_iic\gpio.o"
+"software_iic\tim.o"
+"software_iic\usart.o"
+"software_iic\stm32f1xx_it.o"
+"software_iic\stm32f1xx_hal_msp.o"
+"software_iic\stm32f1xx_hal_gpio_ex.o"
+"software_iic\stm32f1xx_hal_tim.o"
+"software_iic\stm32f1xx_hal_tim_ex.o"
+"software_iic\stm32f1xx_hal.o"
+"software_iic\stm32f1xx_hal_rcc.o"
+"software_iic\stm32f1xx_hal_rcc_ex.o"
+"software_iic\stm32f1xx_hal_gpio.o"
+"software_iic\stm32f1xx_hal_dma.o"
+"software_iic\stm32f1xx_hal_cortex.o"
+"software_iic\stm32f1xx_hal_pwr.o"
+"software_iic\stm32f1xx_hal_flash.o"
+"software_iic\stm32f1xx_hal_flash_ex.o"
+"software_iic\stm32f1xx_hal_exti.o"
+"software_iic\stm32f1xx_hal_uart.o"
+"software_iic\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "Software_IIC\Software_IIC.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Software_IIC.map" -o Software_IIC\Software_IIC.axf

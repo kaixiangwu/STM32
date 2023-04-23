@@ -88,10 +88,7 @@ int main(void)
   MX_GPIO_Init();
   MX_TIM1_Init();
   /* USER CODE BEGIN 2 */
-  IIC_Init();
-  HAL_Delay(3000);
-  
-  
+
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -101,41 +98,6 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-  IIC_StartSignal();
-  uint8_t i = 0;
-
-  IIC_SDA_OutputMode();  // 设置SDA为输出模式
-      
-  // 确保SCL和SDA都是低电平
-  IIC_SCL_WRITE_DOWN();
-  IIC_SDA_WRITE_DOWN();
-  
-	  int Data = 0xaa;
-  for (i = 0; i < 8; i++)
-  {
-    // SCL低电平期间准备数据
-    if (Data & (1 << (7 - i))) // 判断数据的第7-i位是否为1
-    {
-      IIC_SDA_WRITE_UP();  // 如果为1，SDA拉高
-    }
-    else
-    {
-      IIC_SDA_WRITE_DOWN();// 如果为0，SDA拉低
-    }
-	HAL_Delay(1);
-
-    // 数据准备完毕，拉高SCL，发送数据
-    IIC_SCL_WRITE_UP();    
-    HAL_Delay(1);
-
-
-    // SCL高电平期间，数据已经发送完毕，拉低SCL，准备发送下一个数据
-    IIC_SCL_WRITE_DOWN();
-    HAL_Delay(1);
-
-  }
-  IIC_StopSignal();
-
   }
   /* USER CODE END 3 */
 }
