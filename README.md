@@ -6,7 +6,7 @@
 
 🔥欢迎您关注微信公众号“**上下求索电子er**”获取更多内容。
 
-![上下求索电子er](pic/上下求索电子er.png)
+<img src="pic/上下求索电子er.png" alt="上下求索电子er" style="zoom: 30%;" />
 
 ## ⭐Links to Notes
 
